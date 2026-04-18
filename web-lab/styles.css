@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 2rem;
   background: #36148f;
-    color: #cbcaf7;
+    color: #1d1b80;
     style: data-theme="dark"
 }
 nav ol {
@@ -14,7 +14,7 @@ nav ol {
 }
 nav ol li a {
   text-decoration: bold;
-  text: #e9b3b3;
+  text: #490909;
   font-weight: bold;
 }
 header {
