@@ -3,8 +3,20 @@ body {
   margin: 0;
   padding: 2rem;
   background: #36148f;
+<<<<<<< Updated upstream
     color: #1d1b80;
+=======
+    color: #292792;
+>>>>>>> Stashed changes
     style: data-theme="dark"
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #36148f;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 nav ol {
   list-style: bold;
@@ -14,22 +26,29 @@ nav ol {
 }
 nav ol li a {
   text-decoration: bold;
+<<<<<<< Updated upstream
   text: #490909;
+=======
+  text: #300808;
+>>>>>>> Stashed changes
   font-weight: bold;
 }
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: #6f0909;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+/* Default Light Theme */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
 }
-#theme-toggle {
-  padding: 0.5rem 1rem;
-  background-color: #fff;
-  border: 3px solid #333;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: bold;
+/* Dark Theme Class */
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+/* Button Styling */
+.theme-btn {
+    background: transparent;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
